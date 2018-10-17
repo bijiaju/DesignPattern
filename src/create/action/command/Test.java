@@ -11,7 +11,7 @@ public class Test {
 	   // 频道切换命令ConcreteCommond  
 	   CommandChange channel = new CommandChange(myTv, 2);  
 	   // 命令控制对象Invoker  
-	   Control control = new Control(on, off, channel);  
+	   Control control = new Control(on, off, channel);  //遥控器
 	  
 	   // 开机  
 	    control.turnOn();  

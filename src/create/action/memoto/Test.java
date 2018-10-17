@@ -1,5 +1,9 @@
 package create.action.memoto;
-
+/**
+ * 备忘录模式
+ * @author bee
+ * 备忘录模式（Memento Pattern）保存一个对象的某个状态，以便在适当的时候恢复对象。备忘录模式属于行为型模式。
+ */
 public class Test {
 	public static void main(String[] args) {  
         

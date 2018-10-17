@@ -1,5 +1,9 @@
 package create.action.responsibilitychain;
-
+/**
+ * ×Ü¾­Àí
+ * @author bee
+ *
+ */
 public class GeneralManager extends Handler {  
 	  
     @Override  

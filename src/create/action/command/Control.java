@@ -5,7 +5,7 @@ package create.action.command;
  *
  */
 public class Control {
-	private Command onCommand, offCommand, changeChannel;
+	private Command onCommand, offCommand, changeChannel;//ÃüÁî°´¼ü
 
 	public Control(Command onCommand, Command offCommand, Command changeChannel) {
 		this.onCommand = onCommand;

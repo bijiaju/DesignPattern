@@ -1,5 +1,9 @@
 package create.struct.appearance;
-
+/**
+ * 外观模式
+ * @author bee
+ *
+ */
 public class Client {
 	
 	 public static void main(String[] args) {  

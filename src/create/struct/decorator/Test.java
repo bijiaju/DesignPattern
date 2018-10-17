@@ -1,5 +1,9 @@
 package create.struct.decorator;
-
+/**
+ * Java IO就是装饰者模式
+ * @author bee
+ *
+ */
 public class Test {
 	
 	 /**  
