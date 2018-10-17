@@ -4,7 +4,7 @@ package create.struct.adapter;
  * @author bee
  *
  */
-//已存在的、具有特殊功能、但不符合我们既有的标准接口的类  
+//已存在的、具有特殊功能、但不符合我们既有的标准接口的类      欧洲插口
 class Adaptee {  
 public void specificRequest() {  
    System.out.println("被适配类具有 特殊功能...");  
@@ -13,7 +13,7 @@ public void specificRequest() {
 
 //目标接口，或称为标准接口  
 interface Target {  
-public void request();  
+public void request(); // 能够插入欧洲插孔的插头
 }  
 
 //具体目标类，只提供普通功能  
@@ -32,9 +32,9 @@ class Adapter implements Target{
      this.adaptee = adaptee;  
  }  
    
- public void request() {  
+ public void request() {  //能够插入欧洲插孔的插头
      // 这里是使用委托的方式完成特殊功能  
-     this.adaptee.specificRequest();  
+     this.adaptee.specificRequest();  //中国插头
  }  
 }  
 
